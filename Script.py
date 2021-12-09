@@ -5,8 +5,8 @@ class script(object):
    📣UPDATES CHANNEL🎯_TXT = """https://t.me/VK_LINKZ"""
    😥HELP💌_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    💙ABOUT🍻_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝙴𝚟𝚊 𝙼𝚊𝚛𝚒𝚊
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: 𝚃𝚎𝚊𝚖 𝙴𝚟𝚊 𝙼𝚊𝚛𝚒𝚊
+    💙ABOUT🍻_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: <a href=https://t.me//VKMOVIES_FILTER_BOT>♡ ᴘʀɪʏᴀɴᴋᴀᴀ ǫᴜᴇᴇɴ | @Vᴋ_Lɪɴᴋs ★</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/heart_recipe>➳ ✰ 𝑶𝒐 𝑰𝒕'𝒔𝑴𝒆 🤦</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
