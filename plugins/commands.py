@@ -19,13 +19,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/EvaMariaBot?startgroup=true')
+            InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿𝚂 ➕', url='http://t.me/VKMOVIES_FILTER_BOT?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/EvaMariaUpdates')
+            InlineKeyboardButton('🎬 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 🔍', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📣 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🎯', url='https://t.me/EvaMariaUpdates')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('🌟 𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🎭', url='https://t.me/Tamilnewmovies_vk'),
+            InlineKeyboardButton('📸 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 📌', url='https://t.me/vkmoviesrequest_zone')
+            ],[
+            InlineKeyboardButton('🙋‍♂ 𝙷𝙴𝙻𝙿 😥', callback_data='help'),
+            InlineKeyboardButton('❣️ About 🍁', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -44,12 +47,12 @@ async def start(client, message):
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
         btn = []
-        btn.append([InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)])
+        btn.append([InlineKeyboardButton("🥺 𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🍭", url=invite_link.invite_link)])
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton(" 🔄 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 🌀", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**𝙿𝙻𝙴𝙰𝚂𝙴 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
