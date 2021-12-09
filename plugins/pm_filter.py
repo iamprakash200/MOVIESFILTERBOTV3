@@ -379,7 +379,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿𝚂 ➕', url='http://t.me/VKMOVIES_FILTERBOT?startgroup=true')
             ],[
             InlineKeyboardButton('🎬 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('📣 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🎯'', url='https://t.me/VK_LINKZ')
+            InlineKeyboardButton('📣 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🎯'', url='https://t.me/Tamilottmovies_vk')
             ],[
             InlineKeyboardButton('🌟 𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🎭', url='https://t.me/Tamilnewmovies_vk'),
             InlineKeyboardButton('📸 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 📌', url='https://t.me/vkmoviesrequest_zone')
