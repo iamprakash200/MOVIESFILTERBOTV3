@@ -98,7 +98,7 @@ async def who_is(client, message):
                 message=chat_photo.big_file_id
             )
             buttons = [[
-                InlineKeyboardButton('🔐 Close', callback_data='close_data')
+                InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴', callback_data='close_data')
             ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             await message.reply_photo(
@@ -112,7 +112,7 @@ async def who_is(client, message):
             os.remove(local_user_photo)
         else:
             buttons = [[
-                InlineKeyboardButton('🔐 Close', callback_data='close_data')
+                InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴', callback_data='close_data')
             ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             await message.reply_text(
@@ -158,10 +158,10 @@ async def imdb_callback(bot: Client, query: CallbackQuery):
             ]
         ]
     if imdb.get('poster'):
-        await query.message.reply_photo(photo=imdb['poster'], caption=f"IMDb Data:\n\n🏷 Title:<a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year:<a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn))
+        await query.message.reply_photo(photo=imdb['poster'], caption=f"IMDb Data:\n\n🏷 Title:<a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year:<a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>\n📣𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙹𝙾𝙸𝙽 𝚄𝚂 @VK_LINKZ", reply_markup=InlineKeyboardMarkup(btn))
         await query.message.delete()
     else:
-        await query.message.edit(f"IMDb Data:\n\n🏷 Title:<a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year:<a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
+        await query.message.edit(f"IMDb Data:\n\n🏷 Title:<a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year:<a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>\n📣𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙹𝙾𝙸𝙽 𝚄𝚂 @VK_LINKZ", reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
     await query.answer()
         
 
